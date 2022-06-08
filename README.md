@@ -11,9 +11,11 @@ This is a Portable Battery based Phone Charger Design for Walla Walla University
 6. Costs less than $25
 
 ## Schematic
+
 ### Buck Converter
 <img width="940" alt="12-15V to 5V DC Buck Converter" src="https://user-images.githubusercontent.com/103593959/172689317-0575e362-160b-45d4-ad98-937e967e6ca4.png">
 Shown above is the final schematic for our project. Our input is delived from a 12-15V source to the screw terminal. For our final version we used a set of 8 AA batteries to generate 12V into the screw terminal. The input then passes a ferrite bead in order to limit noise coming from the input. It then passes into a LM25765-5 Buck Converter. The LM25765 works as a simple switcher in conjuction with our inductor and schottky diode in order to create an average duty cyle resulting in 5V. From the USB 5V are generated with a current ranging from about 20-30mA. This is entirely dependent on what kind of battery you use. The converter itself is designed to handle up to 3A so you are able to charge your phone with a car battery.
+
 ### Data Pin Voltage Divider
 <img width="629" alt="Data Pin Voltage Divider" src="https://user-images.githubusercontent.com/103593959/172690697-4c113191-cb47-44f4-89cb-d85b8f5cc583.png">
 5V is passed into a voltage divider, in order to use the data pins on the USB output. This is required to charge Apple Devices.
