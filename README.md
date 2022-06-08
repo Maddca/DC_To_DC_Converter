@@ -5,9 +5,9 @@ This is a Portable Battery based Phone Charger Design for Walla Walla University
 ## Design Specifications
 1. Takes a 12-15V input and outputs a 5V
 2. Is able to charge both Android Devices as well as Iphones
-3. Able to handle any 12-15V that might be used. (Up to 3A)
+3. Able to handle any 12-15V source that might be used. (Up to 3A)
 4. Power efficiency of atleast 80%
-5. Small Board Size (less than10cm x 10cm)
+5. Small Board Size (less than 10cm x 10cm)
 6. Costs less than $25
 
 ## Schematic
@@ -28,3 +28,8 @@ Shown above is the lastest PCB design. Of interest is the particularly wide trac
 Above is the DC simulation showing the duty cycle. This was done through Webenches internal simulator.
 [WEBENCH](https://www.ti.com/design-resources/design-tools-simulation/webench-power-designer.html)
 ## Results
+![RESULTS-3](https://user-images.githubusercontent.com/103593959/172694162-edb24509-7349-41c7-8c8f-bdfb72bc2300.jpg)
+![RESULTSWCHARGE](https://user-images.githubusercontent.com/103593959/172694205-9e061ccc-a44e-487e-9e71-378bbb84c875.png)
+![RESULTSWCURRENT](https://user-images.githubusercontent.com/103593959/172694233-da5c8616-0a7c-4280-bb87-21d141a1bf0d.png)
+![RESULTSRESISTOR](https://user-images.githubusercontent.com/103593959/172694187-71a39f78-31a7-45ef-89d6-a325fd3f6429.png)
+The final results were that as expected the device can charge any type of phone including iphones. It has a power efficiency of more than 80%. It can supply up to 3A, but the capacitors in particular get hot rather quickly so don't leave it plugged in for very long. The low current diplayed(20-30mA)in the previous image was likely due to the AA batteries being used to charge a phone for several hours of total charging times previous to the image being taken.
