@@ -1,6 +1,7 @@
-# DC-to-DC-Converter
+# Portable Battery Phone Charger
+This project was done in collaboration with [Taylor Smith](https://github.com/TaylorSmith28).
 ## Overview
-This is a DC-to-DC Converter Design for Walla Walla University's Power Electronics Course. The goal of this project was to create a 12-15V to 5V DC converter in order to be able to charge a phone from a voltage source ranging from 12-15V.
+This is a Portable Battery based Phone Charger Design for Walla Walla University's Power Electronics Course. The goal of this project was to create a 12-15V to 5V DC converter in order to be able to charge a phone from a voltage source ranging from 12-15V.
 ## Design Specifications
 1. Takes a 12-15V input and outputs a 5V
 2. Is able to charge both Android Devices as well as Iphones
@@ -8,7 +9,6 @@ This is a DC-to-DC Converter Design for Walla Walla University's Power Electroni
 4. Power efficiency of atleast 80%
 5. Small Board Size (less than10cm x 10cm)
 6. Costs less than $25
-
 
 ## Schematic
 ### Buck Converter
@@ -23,5 +23,8 @@ Shown above is the final schematic for our project. Our input is delived from a 
 Shown above is the lastest PCB design. Of interest is the particularly wide track width, which is required because of our design specification of being able to handle at least 3A. Besides that parts, besides the voltage divider for the data pins, have been picked to handle no less than 3A.
 
 ## Simulations
-
+![WEBENCHSIM](https://user-images.githubusercontent.com/103593959/172692226-310b16a1-f443-4a36-b901-8baf80800180.png)
+![DCSIM](https://user-images.githubusercontent.com/103593959/172692238-541f87c7-a201-4690-8562-cc60e67feb2c.png)
+Above is the DC simulation showing the duty cycle. This was done through Webenches internal simulator.
+[WEBENCH](https://www.ti.com/design-resources/design-tools-simulation/webench-power-designer.html)
 ## Results
