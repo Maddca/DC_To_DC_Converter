@@ -6,7 +6,8 @@ This is a DC-to-DC Converter Design for Walla Walla University's Power Electroni
 2. Is able to charge both Android Devices as well as Iphones
 3. Able to handle any 12-15V that might be used. (Up to 3A)
 4. Power efficiency of atleast 80%
-5. 
+5. Small Board Size (less than10cm x 10cm)
+6. Costs less than $25
 
 
 ## Schematic
