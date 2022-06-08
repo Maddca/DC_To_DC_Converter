@@ -13,7 +13,7 @@ This is a Portable Battery based Phone Charger Design for Walla Walla University
 ## Schematic
 
 ### Buck Converter
-<img width="940" alt="12-15V to 5V DC Buck Converter" src="https://user-images.githubusercontent.com/103593959/172689317-0575e362-160b-45d4-ad98-937e967e6ca4.png">
+<img width="1183" alt="12-15V to 5V Buck Converter" src="https://user-images.githubusercontent.com/103593959/172705684-6f102bbe-67f4-4c99-813d-ff1fe3573572.png">
 Shown above is the final schematic for our project. Our input is delived from a 12-15V source to the screw terminal. For our final version we used a set of 8 AA batteries to generate 12V into the screw terminal. The input then passes a ferrite bead in order to limit noise coming from the input. It then passes into a LM25765-5 Buck Converter. The LM25765 works as a simple switcher in conjuction with our inductor and schottky diode in order to create an average duty cyle resulting in 5V. From the USB 5V are generated with a current ranging from about 20-30mA. This is entirely dependent on what kind of battery you use. The converter itself is designed to handle up to 3A so you are able to charge your phone with a car battery.
 
 ### Data Pin Voltage Divider
@@ -21,7 +21,7 @@ Shown above is the final schematic for our project. Our input is delived from a 
 5V is passed into a voltage divider, in order to use the data pins on the USB output. This is required to charge Apple Devices. We got the required Data Pin Voltages from https://blog.voltaicsystems.com/choosing-usb-pin-voltages-for-iphones-and-ipads/.
 
 ## PCB Design
-<img width="736" alt="Battery Phone Charger" src="https://user-images.githubusercontent.com/103593959/172690922-350a5b45-ab1b-46ce-9866-4cf9ffeabde6.png">
+<img width="634" alt="Portable Battery Phone Charger" src="https://user-images.githubusercontent.com/103593959/172705661-b1e994c6-f4e8-4fa9-b885-44529f19d87f.png">
 Shown above is the lastest PCB design. Of interest is the particularly wide track width, which is required because of our design specification of being able to handle at least 3A. Besides that parts, besides the voltage divider for the data pins, have been picked to handle no less than 3A.
 
 ## Simulations
