@@ -18,7 +18,7 @@ Shown above is the final schematic for our project. Our input is delived from a 
 
 ### Data Pin Voltage Divider
 <img width="629" alt="Data Pin Voltage Divider" src="https://user-images.githubusercontent.com/103593959/172690697-4c113191-cb47-44f4-89cb-d85b8f5cc583.png">
-5V is passed into a voltage divider, in order to use the data pins on the USB output. This is required to charge Apple Devices.
+5V is passed into a voltage divider, in order to use the data pins on the USB output. This is required to charge Apple Devices. We got the required Data Pin Voltages from https://blog.voltaicsystems.com/choosing-usb-pin-voltages-for-iphones-and-ipads/.
 
 ## PCB Design
 <img width="736" alt="Battery Phone Charger" src="https://user-images.githubusercontent.com/103593959/172690922-350a5b45-ab1b-46ce-9866-4cf9ffeabde6.png">
