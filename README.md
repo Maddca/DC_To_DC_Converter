@@ -10,6 +10,8 @@ This is a Portable Battery based Phone Charger Design for Walla Walla University
 5. Small Board Size (less than 10cm x 10cm)
 6. Costs less than $25
 
+## Block Diagram
+![BlockDiagram 4470](https://user-images.githubusercontent.com/103593959/172776102-6fd84c9d-f485-430e-bf31-423510e69658.png)
 ## Schematic
 
 ### Buck Converter
